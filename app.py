@@ -19,5 +19,5 @@ else:
   st.write("Неправилно")
 
 st.button("Проверка")
-if(answer1 == true and answer2 == true and answer3 == true):
+if(answer1 == 4 and answer2 == "изток" and answer3 == "синьо"):
   st.write("Всичко е правилно")
