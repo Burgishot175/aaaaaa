@@ -5,3 +5,9 @@ if(answer1 == 4):
   st.write("Правилно")
 else:
   st.write("Неправилно")
+st.write("Откъде изгрява слънцето")
+answer2 = st.text_input("Въведи отговор")
+if(answer2 == "изток"):
+  st.write("Правилно")
+else:
+  st.write("Неправилно")
