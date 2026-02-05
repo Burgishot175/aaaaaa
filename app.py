@@ -21,3 +21,5 @@ else:
 st.button("Проверка")
 if(answer1 == 4 and answer2 == "изток" and answer3 == "синьо"):
   st.write("Всичко е правилно")
+else:
+  st.write("Имаш грешка")
