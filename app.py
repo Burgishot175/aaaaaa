@@ -17,6 +17,3 @@ if(answer3 == "синьо"):
   st.write("Правилно")
 else:
   st.write("Неправилно")
-
-if(answer1 == true and answer2 == true and answer3 == true):
-  st.write("Всичко ти е правилно")
