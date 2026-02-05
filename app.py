@@ -13,3 +13,7 @@ else:
   st.write("Неправилно")
 st.write("Какъв цвят е небето")
 answer3 = st.text_input("Въведи oтговор")
+if(answer3 == "синьо"):
+  st.write("Правилно")
+else:
+  st.write("Неправилно")
