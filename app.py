@@ -12,4 +12,4 @@ if(answer2 == "изток"):
 else:
   st.write("Неправилно")
 st.write("Какъв цвят е небето")
-answer3 = st.text_input("Въведи отговор")
+otgovor3 = st.text_input("Въведи отговор")
