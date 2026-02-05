@@ -17,3 +17,7 @@ if(answer3 == "синьо"):
   st.write("Правилно")
 else:
   st.write("Неправилно")
+
+st.button("Проверка")
+if(answer1 == true and answer2 == true and answer 3 == true):
+  
