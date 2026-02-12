@@ -10,7 +10,7 @@ answer3 = st.text_input("Въведи oтговор")
 
 
 st.button("Проверка")
-if(answer1 == 1938 and answer2 == 1945 and answer3 == 681):
+if(answer1 == 1938 and answer2 == "1945" and answer3 == "681"):
   st.success("Всичко е правилно")
 else:
   st.error("Имаш грешка")
