@@ -1,16 +1,16 @@
 import streamlit as st
-st.write("Колко е 2+2")
+st.write("Кога е почнала втората световна война?")
 answer1 = st.number_input("Въведи отговор")
 
-st.write("Откъде изгрява слънцето")
+st.write("Кога е свършила втората световна война?")
 answer2 = st.text_input("Въведи отговор")
 
-st.write("Какъв цвят е небето")
+st.write("Кога е създадена България")
 answer3 = st.text_input("Въведи oтговор")
 
 
 st.button("Проверка")
-if(answer1 == 4 and answer2 == "изток" and answer3 == "синьо"):
+if(answer1 == 1938 and answer2 == 1945 and answer3 == 681):
   st.write("Всичко е правилно")
 else:
   st.write("Имаш грешка")
