@@ -11,6 +11,6 @@ answer3 = st.text_input("Въведи oтговор")
 
 st.button("Проверка")
 if(answer1 == 1938 and answer2 == 1945 and answer3 == 681):
-  st.write("Всичко е правилно")
+  st.success("Всичко е правилно")
 else:
-  st.write("Имаш грешка")
+  st.error("Имаш грешка")
