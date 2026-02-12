@@ -1,6 +1,6 @@
 import streamlit as st
 st.write("Кога е почнала втората световна война?")
-answer1 = st.text_input("Въведи отговор")
+answer1 = st.number_input("Въведи отговор")
 
 st.write("Кога е свършила втората световна война?")
 answer2 = st.text_input("Въведи отговор")
