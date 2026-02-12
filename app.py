@@ -3,10 +3,10 @@ st.write("Кога е почнала втората световна война?
 answer1 = st.number_input("Въведи отговор")
 
 st.write("Кога е свършила втората световна война?")
-answer2 = st.text_input("Въведи отговор")
+answer2 = st.number_input("Въведи отговор")
 
 st.write("Кога е създадена България")
-answer3 = st.text_input("Въведи oтговор")
+answer3 = st.number_input("Въведи oтговор")
 
 
 st.button("Проверка")
