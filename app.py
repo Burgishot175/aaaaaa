@@ -12,7 +12,7 @@ st.write("Кога почва първата световна война?")
 answer4 = st.number_input("Въведи oтговор")
 
 st.button("Проверка")
-if(answer1 == "1938" and answer2 == "1945" and answer3 == "681" and answer4 == 1914):
+if(answer1 == 1938 and answer2 == "1945" and answer3 == "681" and answer4 == 1914):
   st.success("Всичко е правилно")
 else:
   st.error("Имаш грешка")
